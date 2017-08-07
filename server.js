@@ -13,11 +13,11 @@ app.get('/Article-one', function (req, res) {
     res.send('Article one is requested and would be made available here');
 });
 
-app.get('Article-two', function (req, res) {
+app.get('/Article-two', function (req, res) {
     res.send('Article two is requested and would be made available here');
 });
 
-app.get('Article-three', function (req, res) {
+app.get('/Article-three', function (req, res) {
     res.send('Article three is requested and would be made available here');
 });
 
